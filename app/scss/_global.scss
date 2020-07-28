@@ -1,0 +1,89 @@
+html {
+   box-sizing: border-box;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+   border: 0px;
+}
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   min-width: 320px;
+}
+body {
+   line-height: 1;
+   font-size: 18px;
+   font-weight: 400;
+}
+input,
+button,
+textarea {
+   font-family: "Bernard", serif;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1195px;
+   margin: 0 auto;
+   width: 100%;
+   padding: 0 15px;
+}
